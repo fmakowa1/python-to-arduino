@@ -15,19 +15,19 @@ while 1:
     if a == 2:
         ser.write(b'2')
         print('Fan Speed Changed')
-    if a == 0:
+    if a == 3:
         ser.write(b'3')
         print('TV ON/OFF')
-    if a == 1:
+    if a == 4:
         ser.write(b'4')
         print('TV CH_UP')
-    if a == 0:
+    if a == 5:
         ser.write(b'5')
         print('TV CH_DWN')
-    if a == 1:
+    if a == 6:
         ser.write(b'6')
         print('TV VOL_UP')
-    if a == 0:
+    if a == 7:
         ser.write(b'7')
         print('TV VOL_DWN')
     #else:
